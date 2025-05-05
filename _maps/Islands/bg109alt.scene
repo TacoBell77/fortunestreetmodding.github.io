@@ -1,0 +1,1619 @@
+Root:
+  __Type: Root
+  Resource:
+    __Type: Resource
+  SetupFlag:
+    __Type: SetupFlag
+    UseShadow: 1
+    UseMirror: 0
+    UseBloom: 0
+    UseDof: 0
+    UseDof2: 1
+    UseBoolean: 0
+  FogSetting:
+    __Type: FogSetting
+    FogType: 0
+    ZStart: 500.000000
+    ZEnd: 3500.000000
+    Color:
+      __Type: Color
+      R: 220
+      G: 228
+      B: 253
+  BloomSetting:
+    __Type: BloomSetting
+    ProcType: 1
+    Border: 250
+    AddShift: 2
+    SoftShiftX: 6.45
+    SoftShiftY: 6.40
+    Color:
+      __Type: RGBA
+      R: 106
+      G: 158
+      B: 208
+      A: 35
+    SoftKN: 4
+  Dof2Setting:
+    __Type: Dof2Setting
+    Fnum: 2.8
+    FocalLength: 37.5
+    S: 0.04
+    Blend: 1
+    FrontBlurMax: 0.000000
+    Front: 6
+    BackBlurMax: 0.75
+    Back: 6
+  LightSetting:
+    __Type: LightSetting
+    Light:
+      __Type: Light2
+      LightNum: 0
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 195
+        G: 200
+        B: 185
+      Dir:
+        __Type: Vector
+        X: .385345
+        Y: -0.859321
+        Z: -0.336270
+    Light:
+      __Type: Light2
+      LightNum: 1
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 60
+        G: 100
+        B: 110
+      Dir:
+        __Type: Vector
+        X: -0.754085
+        Y: -.044402
+        Z: -0.655274
+    Light:
+      __Type: Light2
+      LightNum: 2
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 50
+        G: 75
+        B: 95
+      Dir:
+        __Type: Vector
+        X: -.123620
+        Y: .8444047
+        Z: .52186
+    Light:
+      __Type: Light2
+      LightNum: 3
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 60
+        G: 95
+        B: 110
+      Dir:
+        __Type: Vector
+        X: -0.030892
+        Y: 0.999509
+        Z: .005231
+    Light:
+      __Type: Light2
+      LightNum: 4
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 240
+        G: 248
+        B: 250
+      Dir:
+        __Type: Vector
+        X: 0.02
+        Y: -0.75
+        Z: -0.65
+    Light:
+      __Type: Light2
+      LightNum: 5
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 176
+        G: 185
+        B: 200
+      Dir:
+        __Type: Vector
+        X: 0.02
+        Y: -0.75
+        Z: -0.64
+    Light:
+      __Type: Light2
+      LightNum: 6
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 160
+        G: 150
+        B: 160
+      Dir:
+        __Type: Vector
+        X: -0.6
+        Y: 0.2
+        Z: 0.7
+    Light:
+      __Type: Light2
+      LightNum: 7
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: -0.3
+        Y: -0.8
+        Z: -0.5
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 0
+      Color:
+        __Type: Color
+        R: 180
+        G: 200
+        B: 170
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 1
+      Color:
+        __Type: Color
+        R: 110
+        G: 110
+        B: 110
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    bg109_cloud01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: bg109_cloud01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      Priority: 0
+      BufferOption: 0
+    bg109_cloud03.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: bg109_cloud03.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      Priority: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.2
+          Y: 1.0
+          Z: 1
+    bg109_sea01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: bg109_sea01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      Priority: 0
+      BufferOption: 0
+      bg109_sea01.rtsa:
+        __Type: TLRtsa
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: .2
+        AnimStartFrame: 0.000000
+        Filename: bg109_sea01.rtsa
+    bg109_sky01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: bg109_sky01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      Priority: 0
+      BufferOption: 0
+      bg109_sky01.rtsa:
+        __Type: TLRtsa
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: .1
+        AnimStartFrame: 0.000000
+        Filename: bg109_sky01.rtsa
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.2
+          Y: 1.0
+          Z: 1
+    bg109_cloud11.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: bg109_cloud11.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      Priority: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0
+          Y: 0
+          Z: 0
+        Scale:
+          __Type: Vector
+          X: 1.1
+          Y: 1
+          Z: 1.1
+  LV1:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    bg109_cloud04.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: bg109_cloud04.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      Priority: 40
+      BufferOption: 0
+      bg109_cloud04.rtsa:
+        __Type: TLRtsa
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: .05
+        AnimStartFrame: 0.000000
+        Filename: bg109_cloud04.rtsa
+  LV1Only:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    bg109_cloud05.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: bg109_cloud05.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      Priority: 50
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: -20
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 1.0
+          Z: 1
+    bg109_cloud02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: bg109_cloud02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      Priority: 30
+      BufferOption: 0
+      bg109_cloud02.rtsa:
+        __Type: TLRtsa
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: .05
+        AnimStartFrame: 0.000000
+        Filename: bg109_cloud02.rtsa
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 55
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 1.0
+          Z: 1
+  LV2:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+  LV2Only:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    bg109_cloud05.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: bg109_cloud05.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      Priority: 50
+      BufferOption: 0
+      bg109_cloud05.rcla:
+        __Type: TLRcla
+        StartTime: 0.0
+        EndTime: 2250
+        LoopType: ENDLESS
+        AnimSpeed: .5
+        AnimStartFrame: 0.000000
+        Filename: bg109_cloud05.rcla
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: -20
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 1.0
+          Z: 1
+  V_MOVE1:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE2:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE3:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE4:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE5:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE6:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE7:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE8:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE9:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE10:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE11:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE12:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE13:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE14:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE15:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE16:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE17:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE18:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE19:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE20:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE21:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE22:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE23:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE24:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE25:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE26:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE27:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE28:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE29:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE30:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE31:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE32:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE33:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE34:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE35:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE36:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE37:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE38:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE39:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE40:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE41:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE42:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE43:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE44:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE45:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE46:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE47:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE48:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE49:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE50:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE51:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE52:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE53:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE54:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE55:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE56:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE57:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE58:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE59:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE60:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE61:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE62:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE63:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE64:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE65:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE66:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE67:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE68:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE69:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE70:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE71:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE72:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE73:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE74:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE75:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE76:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE77:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE78:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE79:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE80:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE81:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE82:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE83:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE84:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE85:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE86:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE87:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE88:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE89:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE90:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE91:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE92:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_MOVE93:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 150
+    LoopType: ONE
+    cam_switch01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: fixed_point_cam_switch01.rsca
+  V_INTRO1:
+    __Type: TLItemRoot
+    PlayType: STOP
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    bg109_cam_intro01.rsca:
+      __Type: TLCameraAnim
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: bg109_cam_intro01.rsca
